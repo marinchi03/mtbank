@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="647.0" style="-fx-background-color: #1344fd;" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.addDog.addDogController">
+    <children>
+        <AnchorPane layoutY="48.0" prefHeight="499.0" prefWidth="647.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Button fx:id="addBut" layoutX="31.0" layoutY="408.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #1344fd;" text="Добавить" textFill="WHITE">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <Label layoutX="31.0" layoutY="24.0" prefHeight="44.0" prefWidth="216.0" text="Сотрудник">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Button fx:id="backBut" layoutX="343.0" layoutY="408.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #1344fd;" text="Назад" textFill="#fffbfb">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <ComboBox fx:id="sotrF" layoutX="31.0" layoutY="62.0" prefHeight="25.0" prefWidth="250.0" promptText="выбрать сотрудника" />
+                <TextField fx:id="datesF" layoutX="340.0" layoutY="62.0" prefHeight="25.0" prefWidth="250.0" promptText="Дата начала(yyyy-mm-dd)" />
+                <Label layoutX="343.0" layoutY="31.0" prefHeight="30.0" prefWidth="216.0" text="Дата начала(yyyy-mm-dd)">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="nomF" layoutX="31.0" layoutY="346.0" prefHeight="25.0" prefWidth="250.0" promptText="Телефон мобильный" />
+                <Label layoutX="32.0" layoutY="316.0" prefHeight="30.0" prefWidth="216.0" text="Номер договора">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label layoutX="31.0" layoutY="92.0" prefHeight="44.0" prefWidth="216.0" text="Клиент">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <ComboBox fx:id="clF" layoutX="31.0" layoutY="130.0" prefHeight="25.0" prefWidth="250.0" promptText="выбрать клиента" />
+                <Label layoutX="31.0" layoutY="163.0" prefHeight="44.0" prefWidth="216.0" text="План счета">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <ComboBox fx:id="psF" layoutX="31.0" layoutY="199.0" prefHeight="25.0" prefWidth="250.0" promptText="выбрать план счета" />
+                <Label layoutX="31.0" layoutY="235.0" prefHeight="44.0" prefWidth="216.0" text="Валюта">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <ComboBox fx:id="valF" layoutX="31.0" layoutY="274.0" prefHeight="25.0" prefWidth="250.0" promptText="выбрать валюту" />
+            <TextField fx:id="dateeF" layoutX="340.0" layoutY="130.0" prefHeight="25.0" prefWidth="250.0" promptText="Дата  окончания(yyyy-mm-dd)" />
+            <Label layoutX="343.0" layoutY="99.0" prefHeight="30.0" prefWidth="216.0" text="Дата  окончания(yyyy-mm-dd)">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="srF" layoutX="343.0" layoutY="199.0" prefHeight="25.0" prefWidth="250.0" promptText="Срок (Лет)" />
+            <Label layoutX="343.0" layoutY="170.0" prefHeight="30.0" prefWidth="216.0" text="Срок (Лет)">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="sumF" layoutX="340.0" layoutY="274.0" prefHeight="25.0" prefWidth="250.0" promptText="Сумма" />
+            <Label layoutX="343.0" layoutY="242.0" prefHeight="30.0" prefWidth="216.0" text="Сумма">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="prF" layoutX="340.0" layoutY="346.0" prefHeight="25.0" prefWidth="250.0" promptText="Проценты" />
+            <Label layoutX="340.0" layoutY="316.0" prefHeight="30.0" prefWidth="216.0" text="Проценты">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="28.0" layoutY="14.0" text="Добавление договора" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

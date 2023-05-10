@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="755.0" style="-fx-background-color: #1344fd;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.clientMod.clientMController">
+    <ImageView layoutY="41.0" fitHeight="500.0" fitWidth="760.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../../assets/2.jpg" />
+        </image>
+    </ImageView>
+    <children>
+        <AnchorPane layoutX="1.0" layoutY="71.0" prefHeight="423.0" prefWidth="743.0">
+            <children>
+
+            <Button fx:id="client" layoutX="230.0" layoutY="61.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="132.0" style="-fx-background-color: #1344fd;" text="Клиенты" textFill="#fffefe" />
+            <Button fx:id="gor" layoutX="400.0" layoutY="61.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="132.0" style="-fx-background-color: #1344fd;" text="Города" textFill="#fffefe" />
+            <Button fx:id="gragd" layoutX="230.0" layoutY="110.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="132.0" style="-fx-background-color: #1344fd;" text="Гражданство" textFill="#fffefe" />
+            <Button fx:id="ival" layoutX="400.0" layoutY="110.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="132.0" style="-fx-background-color: #1344fd;" text="Инвалидность" textFill="#fffefe" />
+            <Button fx:id="sp" layoutX="230.0" layoutY="160.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="132.0" style="-fx-background-color: #1344fd;" text="Семейное положение" textFill="#fffefe" />
+            <Button fx:id="back" layoutX="613.0" layoutY="305.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="132.0" style="-fx-background-color: #1344fd;" text="Назад" textFill="#fffefe" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="325.0" layoutY="3.0" text="Клиенты" textFill="#ffffff">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

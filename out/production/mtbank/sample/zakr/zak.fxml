@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1201.0" style="-fx-background-color: #1344fd;" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.zakr.zakController">
+    <children>
+        <AnchorPane layoutY="48.0" prefHeight="563.0" prefWidth="1201.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TableView fx:id="table" layoutX="14.0" layoutY="40.0" prefHeight="450.0" prefWidth="1176.0">
+                    <columns>
+                        <TableColumn fx:id="idField" prefWidth="75.0" text="Код" />
+                        <TableColumn fx:id="idnd" prefWidth="169.0" text="Номер договора" />
+                        <TableColumn fx:id="idns" prefWidth="245.0" text="Номер счета" />
+                        <TableColumn fx:id="idsum" prefWidth="213.0" text="Сумма" />
+                        <TableColumn fx:id="idproc" prefWidth="293.0" text="Прибыль" />
+                        <TableColumn fx:id="iddate" prefWidth="180.0" text="Дата" />
+                    </columns>
+                </TableView>
+                <Button fx:id="backBut" layoutX="937.0" layoutY="511.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #1344fd;" text="Назад" textFill="#fffbfb">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+            <Button fx:id="zakr" layoutX="615.0" layoutY="511.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #1344fd;" text="Закрыть день" textFill="#fffbfb">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="28.0" layoutY="14.0" text="Закрытие дня" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

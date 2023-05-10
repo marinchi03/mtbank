@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="875.0" style="-fx-background-color:  #1344fd;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.mainForm.mainController">
+    <children>
+        <AnchorPane layoutY="60.0" prefHeight="600.0" prefWidth="874.0" style="-fx-background-color: #ffffff;">
+            <children>
+                <ImageView fitHeight="600.0" fitWidth="874.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../assets/img.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="butCl" layoutX="100.0" layoutY="355.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="295.0" style="-fx-background-color: #1344fd;" text="Перейти к модулю &quot;Клиенты&quot;" textFill="#ffffff" />
+            <Button fx:id="butDep" layoutX="455.0" layoutY="355.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="295.0" style="-fx-background-color: #1344fd;" text="Перейти к модулю &quot;Депозиты&quot;" textFill="#ffffff" />
+            </children>
+        </AnchorPane>
+
+        <Label layoutX="350.0" layoutY="10.0" text="Выберите модуль" textFill="#ffffff">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+
+
+    </children>
+</AnchorPane>

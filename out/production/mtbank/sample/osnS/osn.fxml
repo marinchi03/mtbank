@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1201.0" style="-fx-background-color: #1344fd;" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.osnS.osnController">
+    <children>
+        <AnchorPane layoutY="48.0" prefHeight="563.0" prefWidth="1201.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Button fx:id="addBut" layoutX="937.0" layoutY="247.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #1344fd;" text="Добавить" textFill="WHITE">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <Button fx:id="delBut" layoutX="937.0" layoutY="307.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #1344fd;" text="Удалить" textFill="#fffbfb">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <Label layoutX="937.0" layoutY="24.0" prefHeight="44.0" prefWidth="216.0" text="Номер договора">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TableView fx:id="table" layoutX="14.0" layoutY="40.0" prefHeight="450.0" prefWidth="901.0">
+                    <columns>
+                        <TableColumn fx:id="idField" prefWidth="75.0" text="Код" />
+                        <TableColumn fx:id="idnd" prefWidth="123.0" text="Номер договора" />
+                        <TableColumn fx:id="idop" prefWidth="133.0" text="Операция" />
+                        <TableColumn fx:id="idns" prefWidth="147.0" text="Номер счета" />
+                        <TableColumn fx:id="idsum" prefWidth="98.0" text="Сумма" />
+                  <TableColumn fx:id="idnsum" prefWidth="73.0" text="Добавлено/Вычтено" />
+                  <TableColumn fx:id="idisum" minWidth="0.0" prefWidth="91.0" text="Итоговая сумма" />
+                  <TableColumn fx:id="iddate" prefWidth="159.0" text="Дата" />
+                    </columns>
+                </TableView>
+                <Button fx:id="backBut" layoutX="937.0" layoutY="366.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" style="-fx-background-color: #1344fd;" text="Назад" textFill="#fffbfb">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Button>
+                <ComboBox fx:id="nomdF" layoutX="937.0" layoutY="68.0" prefHeight="25.0" prefWidth="250.0" promptText="Номер договора" />
+                <TextField fx:id="sumF" layoutX="937.0" layoutY="199.0" prefHeight="25.0" prefWidth="250.0" promptText="Добавлени/Вычтено" />
+                <Label layoutX="937.0" layoutY="169.0" prefHeight="30.0" prefWidth="216.0" text="Добавлени/Вычтено">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+            <Label layoutX="937.0" layoutY="93.0" prefHeight="44.0" prefWidth="216.0" text="Операция">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="opF" layoutX="937.0" layoutY="137.0" prefHeight="25.0" prefWidth="250.0" promptText="Выбрать операцию" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="28.0" layoutY="14.0" text="Основной счет" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
